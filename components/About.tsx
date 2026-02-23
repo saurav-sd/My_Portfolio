@@ -77,7 +77,7 @@ export default function About() {
 }
 
 const highlights = [
-  { value: "2+", label: "Years Experience" },
+  { value: "5+", label: "Years Experience" },
   { value: "10+", label: "Projects Built" },
   { value: "40%", label: "Performance Boost" },
   { value: "Full-Stack", label: "Frontend + Backend" },

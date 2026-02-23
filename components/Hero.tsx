@@ -38,7 +38,7 @@ export default function Hero() {
             {/* CTA Buttons */}
             <div className="mt-8 flex flex-wrap gap-4">
               <Button asChild size="lg">
-                <Link href="/projects">View Projects</Link>
+                <Link href="#projects">View Projects</Link>
               </Button>
 
               <Button asChild variant="outline" size="lg">

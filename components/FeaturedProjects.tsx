@@ -46,7 +46,7 @@ export default function FeaturedProjects() {
               tech={["Next.js", "React", "FastAPI", "PostgreSQL"]}
               impact="Improved dashboard load performance by 40% with code-splitting and memoization."
               link="/projects/ecommerce"
-              image="/projects/ecommerce.jpg"
+              image="/projects/ecommerce.png"
             />
           </motion.div>
 

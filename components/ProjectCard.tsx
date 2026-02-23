@@ -39,7 +39,7 @@ export default function ProjectCard({
       />
 
       {/* Image */}
-      <div className="relative h-52 w-full mb-6 overflow-hidden rounded-xl">
+      <div className="relative w-full aspect-[26.5/9] mb-6 overflow-hidden rounded-xl">
         <Image
           src={image}
           alt={title}
@@ -82,12 +82,32 @@ export default function ProjectCard({
       </p>
 
       {/* CTA */}
-      <Link
-        href={link}
-        className="mt-6 inline-block text-sm font-medium underline underline-offset-4"
-      >
-        View Case Study →
-      </Link>
+      <div className="flex items-center gap-6 mt-8 flex-wrap">
+
+  <a
+    href="https://ecommerce-frontend-sigma-blond.vercel.app/"
+    target="_blank"
+    className="text-sm font-medium text-foreground hover:text-primary transition"
+  >
+    🌍 Live
+  </a>
+
+  <a
+    href="https://github.com/saurav-sd/ecommerce-frontend"
+    target="_blank"
+    className="text-sm font-medium text-foreground hover:text-primary transition"
+  >
+    💻 GitHub
+  </a>
+
+  <Link
+    href={link}
+    className="text-sm font-medium underline underline-offset-4 hover:text-primary transition"
+  >
+    View Documentation →
+  </Link>
+
+</div>
     </div>
   )
 }
