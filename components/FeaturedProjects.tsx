@@ -50,7 +50,7 @@ export default function FeaturedProjects() {
             />
           </motion.div>
 
-          <motion.div variants={itemVariants}>
+          {/* <motion.div variants={itemVariants}>
             <ProjectCard
               title="AI-Powered Authentication System"
               description="Secure authentication flow with JWT rotation, biometric login, and real-time session management."
@@ -70,7 +70,7 @@ export default function FeaturedProjects() {
               link="/projects/portfolio"
               image="/projects/portfolio.png"
             />
-          </motion.div>
+          </motion.div> */}
         </motion.div>
       </Container>
     </section>
