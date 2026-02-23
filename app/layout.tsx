@@ -5,9 +5,9 @@ import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes"
 
 export const metadata: Metadata = {
-  title: "Saurav | Frontend Engineer",
+  title: "Saurav | Saurav Daware",
   description:
-    "Frontend Engineer specializing in React, Next.js, and scalable web applications.",
+    "FFull Stack Developer specializing in React, Next.js, FastApi and scalable web applications.",
 };
 
 export default function RootLayout({
